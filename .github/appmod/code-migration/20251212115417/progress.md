@@ -15,3 +15,4 @@
 +- [✅] Migration artifacts committed on branch `appmod/java-migration-20251212115417`
 +- [✅] Migration summary generated (summary.md)
 +- [✅] Migration complete
++- [✅] Completeness validation: no remaining old technology references found
