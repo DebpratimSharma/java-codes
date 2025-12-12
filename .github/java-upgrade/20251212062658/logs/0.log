@@ -1,0 +1,27 @@
+2025-12-12T06:26:58.148Z [INFO] ----------------------invoke install_jdk----------------------
+2025-12-12T06:26:58.148Z [INFO] [Tool.invoke]({name: install_jdk, input: {
+  "version": "21",
+  "dest": "/home/debpratim/.jdk",
+  "projectPath": "/home/debpratim/Desktop/java-codes"
+}}).
+2025-12-12T06:26:58.148Z [INFO] [Task.start](): Starting task toolCall
+2025-12-12T06:26:58.148Z [INFO] [Task.start](): Started task toolCall
+2025-12-12T06:26:58.149Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2025-12-12T06:26:58.149Z [INFO] [Tool.invoke] do pre-invoke.
+2025-12-12T06:26:58.149Z [INFO] [Tool.invoke] do invoke.
+2025-12-12T06:28:11.620Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "/home/debpratim/.jdk/jdk-21.0.8/bin",
+    "version": "21.0.8"
+  },
+  "message": "JDK 21 is installed at /home/debpratim/.jdk/jdk-21.0.8/bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "21"
+  }
+}}).
+2025-12-12T06:28:11.621Z [INFO] [Task.complete](): Completing task toolCall
+2025-12-12T06:28:11.623Z [INFO] [Task.complete](): Completed task toolCall
+2025-12-12T06:28:11.623Z [INFO] [Tool.invoke]({message: JDK 21 is installed at /home/debpratim/.jdk/jdk-21.0.8/bin}).
+2025-12-12T06:28:11.623Z [INFO] ----------------------invoked install_jdk----------------------

@@ -1,0 +1,44 @@
+2025-12-12T06:24:35.364Z [INFO] ----------------------invoke list_jdks----------------------
+2025-12-12T06:24:35.364Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "projectPath": "/home/debpratim/Desktop/java-codes"
+}}).
+2025-12-12T06:24:35.365Z [INFO] [Task.start](): Starting task toolCall
+2025-12-12T06:24:35.365Z [INFO] [Task.start](): Started task toolCall
+2025-12-12T06:24:35.365Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2025-12-12T06:24:35.365Z [INFO] [Tool.invoke] do pre-invoke.
+2025-12-12T06:24:35.365Z [INFO] [Tool.invoke] do invoke.
+2025-12-12T06:24:35.374Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 11.0.29\n   📁 Path: /usr/lib/jvm/java-11-openjdk-amd64/bin\n   🏷️ Source: PATH\n\n2. Java 11.0.29\n   📁 Path: /usr/lib/jvm/default-java/bin\n   🏷️ Source: others\n\n3. Java 11.0.29\n   📁 Path: /usr/lib/jvm/java-1.11.0-openjdk-amd64/bin\n   🏷️ Source: others\n\nTotal: 3 JDK installation(s) found"
+}}).
+2025-12-12T06:24:35.374Z [INFO] [Task.complete](): Completing task toolCall
+2025-12-12T06:24:35.375Z [INFO] [Task.complete](): Completed task toolCall
+2025-12-12T06:24:35.375Z [INFO] [Tool.invoke]({message: We found following jdks in your system:
+
+1. Java 11.0.29
+   📁 Path: /usr/lib/jvm/java-11-openjdk-amd64/bin
+   🏷️ Source: PATH
+
+2. Java 11.0.29
+   📁 Path: /usr/lib/jvm/default-java/bin
+   🏷️ Source: others
+
+3. Java 11.0.29
+   📁 Path: /usr/lib/jvm/java-1.11.0-openjdk-amd64/bin
+   🏷️ Source: others
+
+Total: 3 JDK installation(s) found}).
+2025-12-12T06:24:35.375Z [INFO] ----------------------invoked list_jdks----------------------
+2025-12-12T06:24:55.211Z [INFO] ---------------------prepare install_jdk----------------------
+2025-12-12T06:24:55.211Z [INFO] [Tool.prepareInvocation]({name: install_jdk, input: {
+  "version": "21",
+  "dest": "/home/debpratim/.jdk"
+}}).
+2025-12-12T06:24:55.211Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2025-12-12T06:24:56.522Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK",
+  "confirmationMessages": {
+    "title": "Download and install JDK",
+    "message": "\nThis tool will download and install JDK 21 from Microsoft with below settings.\n- **Version**: 21\n- **Vendor**: Microsoft\n- **Url**: https://aka.ms/download-jdk/microsoft-jdk-21.0.8-linux-x64.tar.gz\n- **Destination**: `/home/debpratim/.jdk`\n- **Checksum**: SHA256: da1cae7d08d41f32e87712bd3feac73faf7646a30476164c9e62a598dbd30aac\n- **Signature**: https://aka.ms/download-jdk/microsoft-jdk-21.0.8-linux-x64.tar.gz.sig\n- **Public Key**: http://aka.ms/microsoft_jdk_public_key\n"
+  }
+}}).
+2025-12-12T06:24:56.522Z [INFO] ----------------------prepared install_jdk----------------------
