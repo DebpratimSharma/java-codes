@@ -1,0 +1,4 @@
+
+# Ignore all generated java-upgrade artifacts and logs by default
+*
+# If you want to retain specific non-sensitive files, add an explicit !pattern here
