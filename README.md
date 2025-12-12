@@ -2,7 +2,7 @@
 
 A personal collection of Java programs I write while learning, experimenting, and practising different concepts.
 
-[![JDK](https://img.shields.io/badge/JDK-21-informational)](https://adoptium.net/)
+[![JDK](https://img.shields.io/badge/JDK-25-informational)](https://adoptium.net/)
 
 Whether you're just starting out or exploring new Java features, this repo contains small exercises, examples, and experiments grouped by topic.
 
@@ -15,12 +15,16 @@ Whether you're just starting out or exploring new Java features, this repo conta
 - **college-classes/** — examples showing OOP concepts (constructors, inheritance, patterns)
 
 ## Quick start
-Prerequisite: JDK 21 (or newer) installed. Set `JAVA_HOME` to your JDK and add `bin` to your `PATH`.
+Prerequisite: JDK 25 (or newer) installed. Set `JAVA_HOME` to your JDK and add `bin` to your `PATH`.
 
 Compile all Java files in the repo:
 ```bash
-export JAVA_HOME=/home/your-user/.jdk/jdk-21.0.8
+export JAVA_HOME=/home/your-user/.jdk/jdk-25.0.1
 $JAVA_HOME/bin/javac -d out $(find . -name "*.java")
+```
+Compile a particular Java file in the repo:
+```bash
+$javac -d out path/to/filename.java
 ```
 
 Run a specific class (example `Intro`):
