@@ -1,0 +1,8 @@
+
+# Ignore everything by default
+*
+# Allow tracking of important migration metadata files (plan, progress, summary)
+!20251212115417/
+!20251212115417/plan.md
+!20251212115417/progress.md
+!20251212115417/summary.md
