@@ -17,6 +17,11 @@ Whether you're just starting out or exploring new Java features, this repo conta
 ## Quick start
 Prerequisite: JDK 25 (or newer) installed. Set `JAVA_HOME` to your JDK and add `bin` to your `PATH`.
 
+Clone the repo in a directory or folder:
+```bash
+$git clone https://github.com/DebpratimSharma/java-codes.git
+```
+
 Compile all Java files in the repo:
 ```bash
 export JAVA_HOME=/home/your-user/.jdk/jdk-25.0.1
